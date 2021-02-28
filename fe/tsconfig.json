@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react",
+        "baseUrl": "src",
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true
+    },
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,400);
+
+body, button {
+  box-sizing: border-box;
+  font-family: 'Raleway', 'Nanum Gothic', sans-serif, 'Nanum Gothic Coding', monospace;
+  background: #222;
+  color: aliceblue;
+}
+
+#reactRoot {
+  width: 100%;
+}
+
+@media (max-width: 380px) {
+  #reactRoot {
+    padding: 60px 0 40px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 512px) {
+  #reactRoot {
+    padding: 66px 0 44px;
+  }
+}
+
